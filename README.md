@@ -32,7 +32,6 @@
 - Periodic meshing for cyclic geometries
 - Anisotropic meshes (metric tensors)
 - Mesh partitioning for parallel solvers (METIS)
-- Homology checks for mesh validity
 
 ---
 
@@ -53,7 +52,7 @@
 
 - **Gmsh**
 - FreeCAD (CAD preparation)
-- Elmer / Calculix (solver considerations)
+- Elmer  (solver considerations)
 - ANSYS ICEM (mesh transformation comparison)
 
 ---
@@ -65,28 +64,6 @@
 - Mesh fields are essential for impeller meshing
 - Periodic meshing is the correct way to handle cyclic geometries in Gmsh
 - CAD quality directly affects mesh robustness
-- Not all mesh operations belong in Gmsh — knowing tool limits matters
-
----
-
-## Status
-
-🚧 Ongoing  
-This repository will continue to evolve with:
-- Cleaner impeller CAD
-- Improved structured meshing
-- Solver-ready CFD meshes
-- Automation scripts
-
----
-
-## Notes
-
-This repo is **learning-focused**, not a polished product.
-Expect experimentation, iteration, and documented failures — because that’s how real engineering work happens.
-
-
-
 
 ---
 
@@ -102,7 +79,8 @@ Expect experimentation, iteration, and documented failures — because that’s 
 
 ## Impeller Meshing Example
 
-![Impeller Mesh](images/impeller_mesh.png)
+<img width="1600" height="957" alt="image" src="https://github.com/user-attachments/assets/3c25c5cc-664f-4502-b02f-98b51febd6c4" />
+
 
 ---
 
@@ -110,12 +88,8 @@ Expect experimentation, iteration, and documented failures — because that’s 
 
 - Gmsh  
 - FreeCAD  
-- Elmer / Calculix  
+- Elmer 
 - ANSYS ICEM (comparison)
 
 ---
 
-## Status
-
-Ongoing technical study.  
-This repository prioritizes **methodology and reproducibility** over polished results.
