@@ -1,6 +1,3 @@
-
----
-
 ## Topics Covered
 
 ### Core Gmsh Concepts
